@@ -1,0 +1,10 @@
+import numpy as np
+def tablica_n():
+    n = input("podaj liczbe n: ")
+    n = int(n)
+    d=np.arange(1,n*n+1,1)
+    print(d)
+    mat = d.reshape((n, n))
+    print(mat)
+
+tablica_n()
