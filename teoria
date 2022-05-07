@@ -96,3 +96,51 @@ rows=np.array([[0,0],[3,3]])
 cols=np.array([[0,2],[0,2]])
 y=a[rows,cols]
 print(y)
+
+
+#UZUPELNIENIE z 07.05.2022
+import numpy as np
+import pandas as ps
+
+# a=np.arange(12).reshape((4,3))
+# print(a)
+# print(a.sum())
+# print(a.sum(axis=0))
+# print(a.sum(axis=1)) #odnosimy sie wartościami do wierszy w axisie
+#
+# print(a.cumsum(axis=1))
+#
+# b=np.array([20,30,40,50])
+# c=np.arange(4)
+#
+# d=c+b
+# print(d)
+# print(np.sqrt(c))
+# e=np.sqrt(c)
+# f=d+e
+# print(f)
+
+# a=np.array([[2,5,1],[5,7,1]])
+# b=np.array([[2,3],[4,5],[7,1]])
+# c=np.dot(a,b) #mnozenie maciezy z zachowaniem majcy
+# print(c)
+# d=a.dot(b)
+# print(d)
+#
+# e=np.arange(3)
+# f=np.arange(3)
+# print(np.dot(e,f)) #mnozenie wszystkich elementow razem zgodnie z zasadami mnozenia
+# g=np.arange(3)
+# h=np.arange([[0],[1],[2]])
+# print(g.dot(h))
+
+# a=np.arange(6).reshape((3,2)) #towrzenie plaskiej tablicy i dostep mamy do kazdego z el. oddzielnie
+# print(a) #liczba kolumn razy liczba wierszy musi sie rownac ilosci elementow w tablicy wyjsciowej
+# # for b in a.flat:
+# #     print(b)
+# c=a.reshape((2,3)) #mozna zmieniac wymiary macierzy
+# print(c)
+# b=c.ravel() #splaszczona macierz
+# print(b)
+# d=c.T #transpozycja - zamiana wierszy i kolumn
+# print(d)
